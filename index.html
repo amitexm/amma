@@ -1,19 +1,17 @@
-<!DOCTYPE html>
-<html lang="hi">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!DOCTYPE html><html lang="hi"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>शोक संदेश – ब्रह्मभोज आमंत्रण</title>
-  <meta name="description" content="ब्रह्मभोज और प्रार्थना के लिए आमंत्रण।" />
-  <meta name="theme-color" content="#4b5563" />
+  <meta name="description" content="ब्रह्मभोज और प्रार्थना के लिए आमंत्रण।">
+  <meta name="theme-color" content="#4b5563">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="ब्रह्मभोज और प्रार्थना के लिए आमंत्रण।" />
-  <meta property="og:description" content="आपको प्रार्थना और श्रद्धांजलि अर्पित करने हेतु ससम्मान आमंत्रित किया जाता है।" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="portrait.jpg" />
+  <meta property="og:title" content="ब्रह्मभोज और प्रार्थना के लिए आमंत्रण।">
+  <meta property="og:description" content="आपको प्रार्थना और श्रद्धांजलि अर्पित करने हेतु ससम्मान आमंत्रित किया जाता है।">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="portrait.jpg">
 
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;700&family=Noto+Sans+Devanagari:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;700&amp;family=Noto+Sans+Devanagari:wght@300;400;600&amp;display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
   
@@ -23,19 +21,16 @@
   <style>
     body { font-family: 'Noto Sans Devanagari', system-ui, sans-serif; }
     .serif { font-family: 'Noto Serif Devanagari', serif; }
-    .dark-mode { background: #111827; color: #f9fafb; }
-    .dark-mode .card, .dark-mode .card-soft { background: #1f2937; color: #f9fafb; border-color: #374151; }
-    .switcher-bar { background: #f3f4f6; border-bottom: 1px solid #e5e7eb; }
-    .dark-mode .switcher-bar { background: #1f2937; border-color: #374151; }
+    .invitation-wrapper {box-shadow:none;}    
 	.navbar-title { font-size: 1.5rem; color: #374151;}
-	.dark-mode .navbar-title {color: #f9fafb;}
+	
 	
   </style>
 </head>
 
 <body>
   <!-- Language & Mode Switcher + Title -->
-  <nav class="switcher-bar py-2">
+  <nav class="switcher-bar py-2 d-none">
 	  <div class="container d-flex justify-content-between align-items-center">
 		<!-- Website Title -->
 		<div id="navbarTitle" class="navbar-title fw-semibold serif">
@@ -59,12 +54,12 @@
   
   
   
-  <div class="invitation-wrapper position-relative">
+  <div class="invitation-wrapper position-relative mb-5 pb-5 pt-4">
     
 	<div class="invitation-inner position-relative">
 
     <header class="hero py-3" id="top">
-		<div class="container text-center">
+		<div class="container-fluid text-center" style="max-widt: 580px;">
 		<!--
 		  <img id="portrait" class="portrait mb-3" src="portrait.jpg" alt="चित्र" />
 		  <div class="mb-2"><span class="badge rounded-pill badge-soft px-3 py-2"><i class="bi bi-flower2 me-2"></i><span id="honorific">श्रद्धांजलि</span></span></div>
@@ -77,155 +72,138 @@
 		  <div class="serif fw-bold mb-3 h1" id="mainTitle"><i class="bi bi-flower2 me-2"></i>शोक संदेश <i class="bi bi-flower2 me-2"></i></div>	
 		
 			<div>
-			  <p class="tribute" id="coverQuote">आपको बड़े दुख के साथ सूचित कर रही हूँ की मेरे पूजनीय पिता जी </p>
-			  <h3 class="d-block fw-bold mb-3">स्व० श्री आकाश मणि पटेल जी</h3>
-			  <p>का दिनांक 21/08/2025 दिन वृहस्पतिवार को स्वर्गवास हो गया एवं उनका दाह संस्कार सम्पन्न हुआ।  उनकी दिवंगत आत्मा की शान्ति हेतु  
-				<span class="d-block h1 fw-bold my-3">!! ब्रह्मभोज !!</span>  
-				दिनांक 05/09/2025 दिन शुक्रवार को सायंकाल होना शुनिश्चित किया गया है।  अतः आप से विनम्र निवेदन है कि उक्त तिथि पर आयोजित भोज एवं अंतिम अरदास में पधारकर उनकी दिवंगत आत्मा की शांति हेतु ईश्वर से प्रार्थना करें।</p>
+			  <p class="mb-0 text-start ms-2">मान्यवर,</p>
+<p class="tribute" id="coverQuote" style="margin-bottom:0px">आपको बड़े दुख के साथ सूचित कर रहा हूँ की मेरी धर्मपत्नी स्व० श्रीमती जड़ावती देवी</p>
+			  <h3 class="d-none fw-bold mb-3">स्व० श्रीमती जड़ावती देवी</h3>
+			  <p>का दिनांक 17/02/2026 दिन मंगलवार को स्वर्गवास हो गया ।  उनकी दिवंगत आत्मा की शान्ति हेतु  
+				<span class="d-block h3 fw-bold my-2">!! ब्रह्मभोज !!</span>  
+				दिनांक 4/03/2026 दिन बुधवार को सायंकाल होना शुनिश्चित किया गया है।  अतः आप से विनम्र निवेदन है कि उक्त तिथि पर पधारकर उनकी दिवंगत आत्मा की शांति हेतु ईश्वर से प्रार्थना करें।</p>
 			</div>
-  </header>
+  </div></header>
 
       <main class="">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row g-4">
-        <div class="col-lg-8 mx-auto">
-          <div class="card card-soft p-4 text-center">
-            <h2 class="serif h4 mb-3">ब्राह्मणभोज  एवं प्रीतिभोज</h2> 
-            <div id="ceremonyList" class="vstack gap-3">दिनांक 05/09/2025 दिन शुक्रवार सायंकाल  </div>
-			<div id="ceremonyList" class="vstack gap-3">पता :  प्रबिन्द पटेल, ग्राम व पोस्ट: मेघौली <br>तहसील: निचलौल, महाराजगंज</div>
+        <div class="col-6 m-0">
+		
+		  <div class="card card-soft p-4 text-center border-0">
+            <h2 class="serif h5 mb-1" >!!  शोकाकुल   !!</h2>
+			<p class="mb-0"> समस्त पटेल परिवार</p>
+			<p class="small mb-1" >आपकी उपस्थिति और प्रार्थनाएँ हमारे लिए अमूल्य हैं।</p>
+            
+          </div>
+        </div>  
+
+        <div class="col-6 m-0" >
+		  
+		  <div class="card card-soft p-4 text-center border-0">
+            <h2 class="serif h4 mb-3" hidden>ब्राह्मणभोज  एवं प्रीतिभोज</h2> 
+            <div id="ceremonyList" class="vstack gap-3 h5 mb-1">भवदीय- </div>
+			<div id="ceremonyList" class="vstack gap-3 h5 m-0">श्री भगेलू दास </div>
+			<div id="ceremonyList" class="vstack gap-3">पता :  पिपरा कल्याण , महाराजगंज</div>
 			<!--<div id="ceremonyList" class="vstack gap-3"> </div>-->
           </div>
-
-          <div class="card card-soft p-4 mt-4" id="livestreamCard" hidden>
-            <h2 class="serif h4 mb-3"><i class="bi bi-broadcast-pin me-2"></i>लाइव प्रसारण</h2>
-            <p>यदि आप व्यक्तिगत रूप से शामिल नहीं हो सकते हैं, तो कृपया ऑनलाइन जुड़ें।</p>
-            <a id="livestreamLink" class="btn btn-outline-secondary" target="_blank">लाइव देखें</a>
-          </div>
-        </div>
-
-        <div class="col-lg-4" hidden>
-          <div class="card card-soft p-4 text-center">
-            <h2 class="serif h5 mb-3">!!  शोकाकुल  परिवार  !!</h2>
-            <div id="contacts"></div>
-          </div>
+          
         </div>
       </div>
     </div>
   </main>
-
-      <footer class="py-5 text-center">
+  
+  
+  <footer class="py-5 text-center" hidden>
     <p class="mb-1 text-muted">आपकी उपस्थिति और प्रार्थनाएँ हमारे लिए अमूल्य हैं।</p>
     <p class="small text-muted mb-0"> समस्त पटेल परिवार</p>
   </footer>
 
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-  <script>
-  const btnLang = document.getElementById('btnLang');
-  const btnMode = document.getElementById('btnMode');
-  const btnModeIcon = btnMode.querySelector('i');
-  const btnModeText = btnMode.querySelector('span');
-
-  let lang = 'hi';
-
-  // --- Dark Mode Switch ---
-  function setDarkMode(enabled) {
-    if (enabled) {
-      document.body.classList.add('dark-mode');
-      btnModeIcon.className = "bi bi-sun me-1";
-      btnModeText.textContent = lang === 'hi' ? 'लाइट मोड' : 'Light Mode';
-      localStorage.setItem('darkMode', 'true');
-    } else {
-      document.body.classList.remove('dark-mode');
-      btnModeIcon.className = "bi bi-moon-stars me-1";
-      btnModeText.textContent = lang === 'hi' ? 'डार्क मोड' : 'Dark Mode';
-      localStorage.setItem('darkMode', 'false');
-    }
-  }
-
-  // --- Language Switch ---
-  btnLang.addEventListener('click', () => {
-  if (lang === 'hi') {
-    document.documentElement.lang = 'en';
-    //document.getElementById('honorific').textContent = 'In Loving Memory';
-    document.getElementById('fullName').textContent = '[Full Name]';
-    document.getElementById('coverQuote').textContent = 'May their soul rest in peace.';
-    btnLang.querySelector('span').textContent = 'हिन्दी';
-    document.getElementById('navbarTitle').textContent = 'Tribute'; 
-    document.title = 'Tribute – Funeral Invitation'; // ✅ Page title in English
-    lang = 'en';
-  } else {
-    document.documentElement.lang = 'hi';
-    document.getElementById('honorific').textContent = 'श्रद्धांजलि';
-    document.getElementById('fullName').textContent = '[पूरा नाम]';
-    document.getElementById('coverQuote').textContent = 'ईश्वर उनकी आत्मा को शांति प्रदान करे।';
-    btnLang.querySelector('span').textContent = 'English';
-    document.getElementById('navbarTitle').textContent = 'श्रद्धांजलि'; 
-    document.title = 'श्रद्धांजलि – अंतिम संस्कार आमंत्रण'; // ✅ Page title in Hindi
-    lang = 'hi';
-  }
-
-    // ✅ Update dark mode button text instantly after language switch
-    const isDark = document.body.classList.contains('dark-mode');
-    setDarkMode(isDark);
-  });
-
-  // --- Dark Mode Button Click ---
-  btnMode.addEventListener('click', () => {
-    const isDark = document.body.classList.contains('dark-mode');
-    setDarkMode(!isDark);
-  });
-
-  // --- Load Preferences ---
-  document.addEventListener("DOMContentLoaded", () => {
-    const savedDark = localStorage.getItem('darkMode') === 'true';
-    setDarkMode(savedDark);
-  });
-
-  // Footer year
-  //document.getElementById('year').textContent = new Date().getFullYear();
   
   
-  // --- Language Switch ---
-/*btnLang.addEventListener('click', () => {
-  if (lang === 'hi') {
-    document.documentElement.lang = 'en';
-    document.getElementById('honorific').textContent = 'In Loving Memory';
-    document.getElementById('fullName').textContent = '[Full Name]';
-    document.getElementById('coverQuote').textContent = 'May their soul rest in peace.';
-    btnLang.querySelector('span').textContent = 'हिन्दी';
-    document.getElementById('navbarTitle').textContent = 'Tribute'; // ✅ Navbar title in English
-    lang = 'en';
-  } else {
-    document.documentElement.lang = 'hi';
-    document.getElementById('honorific').textContent = 'श्रद्धांजलि';
-    document.getElementById('fullName').textContent = '[पूरा नाम]';
-    document.getElementById('coverQuote').textContent = 'ईश्वर उनकी आत्मा को शांति प्रदान करे।';
-    btnLang.querySelector('span').textContent = 'English';
-    document.getElementById('navbarTitle').textContent = 'श्रद्धांजलि'; // ✅ Navbar title in Hindi
-    lang = 'hi';
-  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="invitation-wrapper position-relative pt-5">
+    
+	<div class="invitation-inner position-relative">
 
-  // ✅ Update dark mode button text instantly after language switch
-  const isDark = document.body.classList.contains('dark-mode');
-  setDarkMode(isDark);
-});*/
+    <header class="hero py-3" id="top">
+		<div class="container-fluid text-center" style="max-widt: 580px;">
+		<!--
+		  <img id="portrait" class="portrait mb-3" src="portrait.jpg" alt="चित्र" />
+		  <div class="mb-2"><span class="badge rounded-pill badge-soft px-3 py-2"><i class="bi bi-flower2 me-2"></i><span id="honorific">श्रद्धांजलि</span></span></div>
+		  <h1 class="serif fw-bold mb-1" id="fullName">आकाश मणि पटेल</h1>
+		  <p class="text-muted mb-3" id="lifeDates">(1952 – 2025)</p>
+		-->
+			
+		  <div id="topQuote" class="mb-3">!! ॐ शान्तिः शान्तिः शान्तिः !!</div>	
+		  
+		  <div class="serif fw-bold mb-3 h1" id="mainTitle"><i class="bi bi-flower2 me-2"></i>शोक संदेश <i class="bi bi-flower2 me-2"></i></div>	
+		
+			<div>
+			  <p class="mb-0 text-start ms-2">मान्यवर,</p>
+<p class="tribute" id="coverQuote" style="margin-bottom:0px">आपको बड़े दुख के साथ सूचित कर रहा हूँ की मेरी धर्मपत्नी स्व० श्रीमती जड़ावती देवी</p>
+			  <h3 class="d-none fw-bold mb-3">स्व० श्रीमती जड़ावती देवी</h3>
+			  <p>का दिनांक 17/02/2026 दिन मंगलवार को स्वर्गवास हो गया ।  उनकी दिवंगत आत्मा की शान्ति हेतु  
+				<span class="d-block h3 fw-bold my-2">!! ब्रह्मभोज !!</span>  
+				दिनांक 4/03/2026 दिन बुधवार को सायंकाल होना शुनिश्चित किया गया है।  अतः आप से विनम्र निवेदन है कि उक्त तिथि पर पधारकर उनकी दिवंगत आत्मा की शांति हेतु ईश्वर से प्रार्थना करें।</p>
+			</div>
+  </div></header>
 
-</script>
+      <main class="">
+    <div class="container-fluid">
+      <div class="row g-4">
+        <div class="col-6 m-0">
+		
+		  <div class="card card-soft p-4 text-center border-0">
+            <h2 class="serif h5 mb-1" >!!  शोकाकुल   !!</h2>
+			<p class="mb-0"> समस्त पटेल परिवार</p>
+			<p class="small mb-1" >आपकी उपस्थिति और प्रार्थनाएँ हमारे लिए अमूल्य हैं।</p>
+            
+          </div>
+        </div>  
+
+        <div class="col-6 m-0" >
+		  
+		  <div class="card card-soft p-4 text-center border-0">
+            <h2 class="serif h4 mb-3" hidden>ब्राह्मणभोज  एवं प्रीतिभोज</h2> 
+            <div id="ceremonyList" class="vstack gap-3 h5 mb-1">भवदीय- </div>
+			<div id="ceremonyList" class="vstack gap-3 h5 m-0">श्री भगेलू दास </div>
+			<div id="ceremonyList" class="vstack gap-3">पता :  पिपरा कल्याण , महाराजगंज</div>
+			<!--<div id="ceremonyList" class="vstack gap-3"> </div>-->
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  
+  <footer class="py-5 text-center" hidden>
+    <p class="mb-1 text-muted">आपकी उपस्थिति और प्रार्थनाएँ हमारे लिए अमूल्य हैं।</p>
+    <p class="small text-muted mb-0"> समस्त पटेल परिवार</p>
+  </footer>
+
+    </div>
+  </div>
+  
+  
+  
 
 
 
 
 
-</body>
-</html>
+
+</body></html>
