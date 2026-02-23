@@ -43,3 +43,78 @@
 
   /* Hero portrait */
   .portrait {
+    max-width: 180px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  }
+  .dark-mode .portrait {
+    border-color: #2d3748;
+  }
+  
+  
+  
+  
+  
+  /* Ornaments in corners */
+.invitation-wrapper::before,
+.invitation-wrapper::after,
+.invitation-inner::before,
+.invitation-inner::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.15; /* faint & elegant */
+  pointer-events: none;
+}
+
+/* Top left floral */
+/*.invitation-wrapper::before {
+  top: 15px;
+  left: -5px;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='%23b1976b' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><path d='M32 2a14 14 0 0 0 0 28A14 14 0 0 0 32 2zm0 20a6 6 0 1 1 0-12 6 6 0 0 1 0 12z'/></svg>");
+}*/
+
+/* Top right floral */
+/*.invitation-wrapper::after {
+  top: -5px;
+  right: -5px;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='%23b1976b' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='14'/></svg>");
+}*/
+
+/* Bottom left floral */
+.invitation-inner::before {
+  bottom: -10px;
+  left: -10px;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='%23b1976b' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><path d='M12 32a20 20 0 1 0 40 0 20 20 0 1 0-40 0z'/></svg>");
+}
+
+/* Bottom right floral */
+.invitation-inner::after {
+  bottom: -10px;
+  right: -10px;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='%23b1976b' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><path d='M32 12a20 20 0 1 0 0 40 20 20 0 1 0 0-40z'/></svg>");
+}
+
+/* Dark mode ornaments (golden shade) */
+/*.dark-mode .invitation-wrapper::before,
+.dark-mode .invitation-wrapper::after,*/
+.dark-mode .invitation-inner::before,
+.dark-mode .invitation-inner::after {
+  opacity: 0.25;
+  filter: drop-shadow(0 0 2px #000);
+  background-image: url("data:image/svg+xml;utf8,<svg fill='%23e5c07b' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='14'/></svg>");
+}
+
+  
+  
+  
+  
+  
+  
+</style>
+
+
