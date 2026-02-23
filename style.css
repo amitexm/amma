@@ -1,0 +1,45 @@
+<style>
+  body {
+    font-family: 'Noto Sans Devanagari', system-ui, sans-serif;
+    background: #fdfdfb; /* soft light base */
+    background-image: radial-gradient(circle at top left, #f9f9f5, #fdfdfb 70%);
+  }
+
+  /* Dark mode background */
+  .dark-mode {
+    background: #111827;
+    background-image: radial-gradient(circle at top left, #1a2235, #111827 70%);
+    color: #f9fafb;
+  }
+
+  /* Invitation card wrapper */
+  .invitation-wrapper {
+    max-width: 900px;
+    margin: 0rem auto;
+    padding: 1rem;
+    background: #fff;
+    /*border: 12px solid transparent;*/
+    border-image: linear-gradient(45deg, #b1976b, #e6d5b8, #b1976b) 1;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  }
+
+  /* Dark mode border & background */
+  .dark-mode .invitation-wrapper {
+    background: #1f2937;
+    border-image: linear-gradient(45deg, #d4af37, #e5c07b, #d4af37) 1;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  }
+
+  /* Decorative inner frame */
+  .invitation-inner {
+    border: 2px dashed #d4af37;
+    border-radius: 15px;
+    padding: 0rem;
+  }
+  .dark-mode .invitation-inner {
+    border-color: #e5c07b;
+  }
+
+  /* Hero portrait */
+  .portrait {
